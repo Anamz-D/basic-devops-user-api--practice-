@@ -51,8 +51,8 @@ jobs:
           tags: |
             anamzd/basicdevopsuserapipractice-backend:latest
             anamzd/basicdevopsuserapipractice-backend:${{ github.sha }}
-            ghcr.io/anam-z-d/basicdevopsuserapipractice-backend:latest
-            ghcr.io/anam-z-d/basicdevopsuserapipractice-backend:${{ github.sha }}
+            ghcr.io/anamz-d/basicdevopsuserapipractice-backend:latest
+            ghcr.io/anamz-d/basicdevopsuserapipractice-backend:${{ github.sha }}
 
           cache-from: type=gha
           cache-to: type=gha,mode=max
